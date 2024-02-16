@@ -62,7 +62,7 @@ plt.clabel(cs, inline=True, fontsize=10, levels=cs.levels[0:1], manual=[(-1.5, -
 
 root = fsolve(func, [1, 1])
 print(root)
-plt.scatter(root[0], root[1], color='k', s=12, marker='o', facecolors='none')
+plt.scatter(root[0], root[1], color='k', s=12, marker='o')
 
 root = fsolve(func, [0, 0])
 print(root)

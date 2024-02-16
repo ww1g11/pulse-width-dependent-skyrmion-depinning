@@ -31,7 +31,7 @@ plt.xlim([-3,3])
 #plt.ylim([-1,4])
 plt.legend(fontsize=12, handletextpad=0.4, frameon=True)
 
-plt.xlabel(r"$y'$ (m/s)")
+plt.xlabel(r"$y'$ (nm)")
 plt.ylabel("$H$ (nm$^2$/ns)")
 plt.tight_layout()
 fig.savefig("fig3d.svg")
